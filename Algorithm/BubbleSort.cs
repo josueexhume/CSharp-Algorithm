@@ -28,7 +28,6 @@ namespace Algorithm
                     }
                 }
             }
-            PrintArrayValues(intArray);
             return intArray;
         }
 
@@ -52,14 +51,6 @@ namespace Algorithm
                 }
             }
             return intArray;
-        }
-
-        public static void PrintArrayValues(int[] unsortedArray)
-        {
-            foreach (var item in unsortedArray)
-            {
-                Console.Write(item + ",");
-            }
         }
 
     }
