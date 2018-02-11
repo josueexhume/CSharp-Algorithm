@@ -4,13 +4,12 @@ namespace Algorithm
 {
     /// <summary>
     /// Bubble Sort uses O(n^2)
-    /// assume ascending order
     /// </summary>
     public class BubbleSort
     {
 
         /// <summary>
-        /// Sorts an array of integer values
+        /// Sorts an array of integer values using the bubble sort algorithm
         /// </summary>
         /// <param name="intArray"></param>
         /// <returns>An array of sorted integers in ascending order</returns>
@@ -32,7 +31,7 @@ namespace Algorithm
         }
 
         /// <summary>
-        /// Sorts an array of integer values
+        /// Sorts an array of integer values using the bubble sort algorithm
         /// </summary>
         /// <param name="intArray"></param>
         /// <returns>An array of sorted integers in descending order</returns>
