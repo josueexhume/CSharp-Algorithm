@@ -1,4 +1,6 @@
-﻿namespace Algorithm
+﻿using System;
+
+namespace Algorithm
 {
     /// <summary>
     /// Bubble Sort uses O(n^2)
@@ -26,6 +28,7 @@
                     }
                 }
             }
+            PrintArrayValues(intArray);
             return intArray;
         }
 
@@ -49,6 +52,14 @@
                 }
             }
             return intArray;
+        }
+
+        public static void PrintArrayValues(int[] unsortedArray)
+        {
+            foreach (var item in unsortedArray)
+            {
+                Console.Write(item + ",");
+            }
         }
 
     }
