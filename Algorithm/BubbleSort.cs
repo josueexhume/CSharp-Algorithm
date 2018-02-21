@@ -9,7 +9,7 @@ namespace Algorithm
     {
 
         /// <summary>
-        /// Sorts an array of integer values using the bubble sort algorithm
+        /// Sorts an array of integer values using the bubble sort algorithm in ascending order
         /// </summary>
         /// <param name="intArray"></param>
         /// <returns>An array of sorted integers in ascending order</returns>
@@ -31,7 +31,7 @@ namespace Algorithm
         }
 
         /// <summary>
-        /// Sorts an array of integer values using the bubble sort algorithm
+        /// Sorts an array of integer values using the bubble sort algorithm in descending order
         /// </summary>
         /// <param name="intArray"></param>
         /// <returns>An array of sorted integers in descending order</returns>
