@@ -48,9 +48,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InsertionSortTest.cs" />
-    <Compile Include="SelectionSortTest.cs" />
-    <Compile Include="BubbleSortTest.cs" />
+    <Compile Include="ListSearch\LinearSearchTest.cs" />
+    <Compile Include="Sorting\InsertionSortTest.cs" />
+    <Compile Include="Sorting\SelectionSortTest.cs" />
+    <Compile Include="Sorting\BubbleSortTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +63,7 @@
       <Name>Algorithm</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -13,7 +13,7 @@ namespace Algorithm.Test
         [TestMethod]
         public void BubbleSortAscending()
         {
-            int[] sortedInteger = new BubbleSort().SortAscending(intArray);
+            int[] sortedInteger = BubbleSort.SortAscending(intArray);
             int[] assumedOrder = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
             PrintArrayValues(sortedInteger);
@@ -24,7 +24,7 @@ namespace Algorithm.Test
         [TestMethod]
         public void BubbleSortDescending()
         {
-            int[] sortedInteger = new BubbleSort().SortDescending(intArray);
+            int[] sortedInteger = BubbleSort.SortDescending(intArray);
             int[] assumedOrder = { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
 
             PrintArrayValues(sortedInteger);
