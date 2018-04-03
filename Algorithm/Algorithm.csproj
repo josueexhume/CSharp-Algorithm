@@ -42,7 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\LinkedList\AlgoLinkedList.cs" />
     <Compile Include="Collections\AlgoList.cs" />
+    <Compile Include="Collections\AlgoListEnumerator.cs" />
+    <Compile Include="Collections\LinkedList\Node.cs" />
+    <Compile Include="Collections\LinkedList\NodeNotFoundException.cs" />
     <Compile Include="ListSearch\LinearSearch.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
